@@ -28,7 +28,7 @@ body {
 .right-links
 {
  display:flex;
- gap:px;
+ gap:16px;
  padding-left:0;
 }
 
@@ -86,7 +86,8 @@ button
     align-items: center;
     flex-direction: column;
     flex:0 1 250px;
-    background-color:aquamarine;
+    background-color:rgba(1, 19, 121, 0.884);
+    color:white;
 }
 
 .placeholders
@@ -94,6 +95,20 @@ button
     display:flex;
     align-items: center;
     gap:30px;
+}
+
+.imgs
+{
+    display: flex;
+    max-width:150px;
+    margin-bottom: 12px;
+    border-radius: 15%;
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
 }
 
 .testimony 
