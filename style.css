@@ -43,4 +43,23 @@ ul{
 .intro
 {
     display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:0 1 200px;
+    background-color:burlywood;
+}
+
+.content
+{
+    display:flex;
+    flex-direction:column;
+    flex:0 1 auto;
+    width: 400px;
+}
+
+button
+{
+    max-width:90px;
+    height: 30px;
+    border-radius: 20%;
 }
