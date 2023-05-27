@@ -18,16 +18,17 @@ body {
  justify-content: space-between;
  align-items: center;
  height:72px;
- padding-left:18px;
- padding-right:18px;
- background:rgb(1, 59, 124);
+ padding-left:30px;
+ padding-right:30px;
+ background:rgb(1, 88, 84);
  color: rgb(250, 250, 250);
+ border-bottom: solid white 2px;
 }
 
 .right-links
 {
  display:flex;
- gap:12px;
+ gap:px;
  padding-left:0;
 }
 
@@ -47,7 +48,7 @@ ul{
     justify-content: center;
     flex:0 1 200px;
     gap:80px;
-    background-color:burlywood;
+    background-color:rgb(1, 88, 84);
 }
 
 .img-a
@@ -62,6 +63,7 @@ ul{
     flex-direction:column;
     flex:0 1 auto;
     width: 400px;
+    color: white;
 }
 
 button
@@ -74,9 +76,8 @@ button
 .img-a
 {
     display: flex;
-    border-color: rgb(17, 17, 17);
     border-width:300px;
-    border:solid;
+    border-radius: 10%;
 }
 
 .subsequent-content
