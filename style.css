@@ -61,5 +61,102 @@ button
 {
     max-width:90px;
     height: 30px;
-    border-radius: 20%;
+    border-radius: 8%;
+}
+
+.img-a
+{
+    display: flex;
+    border-color: rgb(17, 17, 17);
+    border-width:300px;
+    border:solid;
+}
+
+.subsequent-content
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    flex:0 1 250px;
+    background-color:aquamarine;
+}
+
+.placeholders
+{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+
+.testimony 
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    flex:0 1 250px;
+    background-color:gray;
+}
+
+.quote
+{
+    display:flex;
+    max-width: 300px;
+}
+
+p
+{
+    margin-top:0;
+}
+
+.by
+{
+    padding-left:90px;
+}
+
+.pop-up
+{
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(84, 188, 196);
+}
+
+.pre-footer 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    background-color: rgb(245, 168, 114);
+}
+
+.join 
+{
+    display:flex;
+    gap:20px;
+    background-color:rgb(33, 33, 196);
+
+}
+
+.call 
+{
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+}
+
+.button-two
+{
+    display:flex;
+    align-items: center;
+    padding:6px;
+}
+
+.a 
+{
+    background-color: blue;
+    color:white;
 }
