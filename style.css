@@ -83,8 +83,9 @@ button
 {
     display:flex;
     align-items: center;
+    justify-content:center;
     flex-direction: column;
-    flex:0 1 250px;
+    flex:0 1 300px;
     background-color:rgba(230, 230, 230, 0.884);
     color:rgb(20, 20, 20);
 }
@@ -119,6 +120,7 @@ button
     flex:0 1 250px;
     background-color:rgba(230, 230, 230, 0.884);
     border-top:solid rgb(1, 88, 84) 2px;
+    border-bottom:solid rgb(1, 88, 84) 2px;
 }
 
 .quote
@@ -130,6 +132,7 @@ button
 p
 {
     margin-top:0;
+    margin-bottom: 0;
 }
 
 .by
@@ -153,14 +156,15 @@ p
     align-items: center;
     justify-content: center;
     flex:1;
-    background-color: rgb(245, 168, 114);
+    background-color: rgba(230, 230, 230, 0.884);
 }
 
 .join 
 {
     display:flex;
     gap:20px;
-    background-color:rgb(33, 33, 196);
+    background-color:rgb(1, 88, 84);
+    color:white;
 
 }
 
@@ -180,6 +184,16 @@ p
 
 .a 
 {
-    background-color: blue;
+    background-color: rgb(199, 199, 201);
+    color:rgb(0, 0, 0);
+}
+
+.footer 
+{
+    display: flex;
+    flex: 0 1 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 88, 84);
     color:white;
 }
