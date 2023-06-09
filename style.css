@@ -12,6 +12,29 @@ body {
     display:flex;
 }
 
+h2
+{
+    font-size:48px;
+    margin-bottom:12px;
+}
+
+h3
+{
+    font-size:28px ;
+    background-color: rgb(1, 88, 84);
+    color:rgba(230, 230, 230, 0.884);
+    padding:16px;
+    border-radius: 10%;
+
+}
+
+p
+{
+    margin-top:0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 .header
 {
  display:flex;
@@ -70,6 +93,7 @@ button
     max-width:90px;
     height: 30px;
     border-radius: 8%;
+    margin-bottom: 5px;;
 }
 
 .img-a
@@ -85,6 +109,7 @@ button
     align-items: center;
     justify-content:center;
     flex-direction: column;
+    gap:20px;
     flex:0 1 300px;
     background-color:rgba(230, 230, 230, 0.884);
     color:rgb(20, 20, 20);
@@ -117,7 +142,8 @@ button
     align-items: center;
     flex-direction: column;
     justify-content:center;
-    flex:0 1 250px;
+    flex:0 1 300px;
+    gap: 8px;
     background-color:rgba(230, 230, 230, 0.884);
     border-top:solid rgb(1, 88, 84) 2px;
     border-bottom:solid rgb(1, 88, 84) 2px;
@@ -126,18 +152,18 @@ button
 .quote
 {
     display:flex;
-    max-width: 300px;
+    max-width: 400px;
+    font-size: 30px;
 }
 
-p
+#quote
 {
-    margin-top:0;
-    margin-bottom: 0;
+    font-size: 22px;
 }
 
 .by
 {
-    padding-left:90px;
+    padding-left:80px;
 }
 
 .pop-up
